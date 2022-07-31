@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+:root {
+
+    --primary-darkViolet: #2d2640;
+    --primary-grayishBlue: #95a9c6;
+    --neutral-veryDarkViolet: #2b272f;
+    --neutral-darkGrayishViolet: #837d87;
+    --neutral-VeryLightGray: #fafafa;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+header , footer {
+    font-family: 'DM Serif Display', serif;
+}
+
+main {
+    font-family: 'Karla', sans-serif;
+    position: relative;
+}
+
+/* HEADER - SECTION - Andres */
+
+.nav-header {
+    display: none
+}
+
+#header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 100%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+#introduction-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+#introduction-image {
+    max-height: 600px;
+    width: 100%;
+}
+
+.introduction-text {
+    align-items: center;
+    background-color: var(--primary-darkViolet);
+    background-image: url(../images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 6rem 0.5rem;
+}
+
+#introduction-h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 1rem 3.8rem;
+    text-align: center;
+}
+
+#introduction-paragraph {
+    color: var(--neutral-VeryLightGray); 
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+    text-align: center;
+}
+
+.btn.light{
+    background-color: transparent;
+    border: 1px solid var(--neutral-VeryLightGray);
+    color: var(--neutral-VeryLightGray);
+    cursor: pointer;
+    height: 40px;
+    padding: 1rem;
+    width: 140px;
+}
+
+#separator {
+    margin:0 auto ;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    width: 35%;
+    border: none;
+    border-bottom: solid 0.01rem var(--primary-darkViolet);
+    opacity: 0.6;
+}
+
+#background-intro-right-mobile {
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+
+/* MAIN PARTE BLANCA */
+
+#different h2 {
+        font-size: 4.1rem;
+        padding-bottom: 60px;
+        padding-top: 0px;
+        text-align: center;
+}
+
+#different div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 6rem;
+        margin: 1rem 2rem 13rem 2rem;
+}
+
+#different div article {
+        
+        text-align: center;
+        line-height: 3rem;
+}
+
+#different div article h3 {
+        text-align: center;
+        padding: 10px 0px;
+        font-family: 'DM Serif Display', serif;
+        font-size: 2.7rem;
+        margin: 1rem 0;
+}
+
+#different div article p {
+        text-align: center;
+        padding: 0 1rem;
+        color: var(--neutral-darkGrayishViolet);
+
+}
+
+
+
+
+
+
+/* MAIN PARTE AZUL */
+
+.main_final {
+        background-color: var(--primary-darkViolet);
+        flex-direction: column;
+        padding: 50px 30px;
+        align-items: center;
+        /*max-width: 300px;*/
+        display: flex;
+        justify-content: center;
+        margin: 0 2.7rem;
+        height: 300px;
+        gap: 1.5rem;
+}
+
+.main_final h3 {
+        color: var(--neutral-VeryLightGray);
+        font-size: 3rem;
+        font-family: 'DM Serif Display', serif;
+        text-align: center;
+        padding: 1rem;
+}
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    padding-bottom:9rem;
+    margin-top:8rem;
+    background-color: var(--neutral-VeryLightGray);
+}
+
+.insure{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color:var(gray);
+    font-weight: 700;
+    letter-spacing: 2rem;
+}
+
+.icon{
+    margin-left: 1rem;
+}
+
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    border-bottom: solid var(--neutral-darkGrayishViolet) 0.1rem;
+    background-image: url("/insure-landing-page-master/images/bg-pattern-footer-mobile.svg");
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 21rem;
+    padding-bottom: 4rem;
+}
+
+.link-container{
+    margin: 2.5rem 0rem;
+    text-align: center;
+}
+
+.link-container li{
+    list-style-type: none;
+    margin: 1.5rem 0rem;
+}
+
+.link-container a{
+    text-decoration: none;
+    color:var(--neutral-veryDarkViolet);
+    letter-spacing: 0.2rem;
+}
+
+.social{
+    margin-right:2rem ;
+}
+
+.titulo-links{
+    color:var(--neutral-darkGrayishViolet);
+    margin: 4.5rem 0rem;
+}

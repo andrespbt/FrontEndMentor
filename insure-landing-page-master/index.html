@@ -1,85 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <title>Frontend Mentor | Insure landing page</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+    <!-- Header -->
+    <header>
+      <div id="header-container">
+        <h1><img src="images/logo.svg" alt="insure" /></h1>
+      <nav class="nav-header">
+        <ul class="ul-header">
+          <li>How we work</li>
+          <li>Blog</li>
+          <li>Account</li>
+        </ul>
+        <button class="btn dark" id="btn-header">View plans</button>
+      </nav>
+      <img src="images/icon-hamburger.svg" alt="hamburger" id="hamburger">
+      </div>
+      
+    </header>
+    
+    <!-- Main -->
+    <main>
+      <section id="introduction-container">
+        <section class="introduction-text">
+          
+          <h2 id="introduction-h2"> Humanizing your insurance.</h2>
+          <p id="introduction-paragraph">Get your life insurance coverage easier and
+            faster. We blend our expertise and technology to help you find the plan
+            that's right for you. Ensure you and your loved ones are protected.</p>
+            <button class="btn light">VIEW PLANS</button>
+          
+        </section>
+        <img src="images/image-intro-desktop.jpg" alt="family" id="introduction-image">
+        
+      </section>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Insure landing page</title>
+      <hr id="separator">
+      <img src="images/bg-pattern-intro-right-mobile.svg" alt="background" id="background-intro-right-mobile">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
 
-  How we work
-  Blog
-  Account
-  View plans
+      <section id="different">
+        <h2> We're different </h2> 
 
-  Humanizing your insurance.
+        <div>
+          <article>
+            <img src="images/icon-snappy-process.svg" alt="snappy-process" class="article-img">
+            <h3 class="diff-h3"> Snappy Process </h3>
+            <p class="diff-p"> Our application process can be
+              completed in minutes, not hours. Don't get stuck filling in tedious forms. </p>
+            </article>
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
 
-  View plans
+            <article>
+              <img src="images/icon-affordable-prices.svg" alt="affordable-prices" class="article-img">
+              <h3 class="diff-h3"> Affordable Prices </h3>
+              <p class="diff-p"> We don't want you worrying about high monthly costs. Our
+                prices may be low, but we still offer the best coverage possible. </>
+            </article>
 
-  We’re different
 
-  Snappy Process
+              
+              <article>
+                <img src="images/icon-people-first.svg" alt="people-first" class="article-img">
+                <h3 class="diff-h3"> People First </h3>
+                <p class="diff-p"> Our plans aren't full of conditions and clauses to prevent payouts. We
+                  make sure you're covered when you need it. </p>
+              </article>
+        </div>
+        </section>
 
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
 
-  Affordable Prices
+        <section id="final"></section>
+          <div class="main_final">
+            <h3> Find out more about how we work </h3>
+            <a href="index.html" target="_blank"></a>
+            <button class="btn light"> HOW WE WORK </button> </a>          
+          </div>
+        </section>
+        </main>
 
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
+        
 
-  People First
 
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
 
-  Find out more about how we work
+    
+    
 
-  How we work
 
-  Our company
+    <!-- footer Start -->
+    <footer id="footer">
+      <!-- barra redes start -->
+      <section class="footer-title">
+        <article class="insure">INSURE</article>
+        
+        <article class="social">
+          
+          <a href="https://www.facebook.com" class="icon" target="_blank"><img src="/insure-landing-page-master/images/icon-facebook.svg" alt="iconFacebook"></a>
+          <a href="https://twitter.com" class="icon" target="_blank"><img src="/insure-landing-page-master/images/icon-twitter.svg" alt="iconTwitter"></a>
+          <a href="https://ar.pinterest.com" class="icon" target="_blank"><img src="/insure-landing-page-master/images/icon-pinterest.svg" alt="iconPinterest"></a>
+          <a href="https://www.instagram.com" class="icon" target="_blank"><img src="/insure-landing-page-master/images/icon-instagram.svg" alt="iconInstagram"></a>
 
-  How we work
-  Why Insure?
-  View plans
-  Reviews
+        
+        </article>
+      </section>
+      <!-- barra de redes end -->
+      
+      <!-- links de interes Start -->
+      <section class="intrest-links-container">
 
-  Help me
+        <!-- primer contenedor links start -->
+        <article class="link-container">
+          <h4 class="titulo-links">OUR COMPANY</h4>
 
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
+          <ul class="link-list">
+            <li><a href="">HOW WE WORK</a></li>
+            <li><a href="">WHY INSURE?</a></li>
+            <li><a href="">VIEW PLANS</a></li>
+            <li><a href="">REVIEWS</a></li>
+          </ul>
+        </article>
+        <!-- primer contenedor links end -->
+        
+        <!-- segundo contenedor links start -->
+        <article class="link-container">
+          <h4 class="titulo-links">HELP ME</h4>
 
-  Contact
+          <ul class="link-list">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">TERMS OF USE</a></li>
+            <li><a href="">PRIVACY POLICY</a></li>
+            <li><a href="">COOKIES</a></li>
+          </ul>
+        </article> 
+        <!-- segundo contenedor links end -->
 
-  Sales
-  Support
-  Live chat
+        <!-- tercer contenedor links start -->
+        <article class="link-container">
+          <h4 class="titulo-links">CONTACT</h4>
 
-  Others
+          <ul class="link-list">
+            <li><a href="">SALES</a></li>
+            <li><a href="">SUPPORT</a></li>
+            <li><a href="">LIVE CHAT</a></li>
+          </ul>
+        </article> 
+        <!-- tercer contenedor links end -->
 
-  Careers
-  Press
-  Licenses
+        <!-- cuarto contenedor links start -->
+        <article class="link-container">
+          <h4 class="titulo-links">OHTERS</h4>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <ul class="link-list">
+            <li><a href="">CAREERS</a></li>
+            <li><a href="">PRESS</a></li>
+            <li><a href="">LICENSES</a></li>
+          </ul>
+        </article> 
+        <!-- cuarto contenedor links end -->        
+        
+      </section>
+      <!-- links de interes end -->
+
+    </footer>
+    <!-- footer end -->
+
+  </body>
 </html>
